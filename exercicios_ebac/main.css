@@ -17,7 +17,7 @@
  }
 
  header li{
-    display: inline;
+    display: block;
  }
 
  header li a {
@@ -37,7 +37,8 @@
  }
 
  .articles article img {
-    height: 180px;
+   /* height: 180px; */
+   width: 80%;
  }
 
  .articles article {
@@ -82,5 +83,18 @@ section h2, .articles article {
    
    #sports .articles article a {
       background-color: #009432;
+   }
+
+   #economy {
+      background-color:  rgba(255, 0, 0.1, 0.1);
+   }
+
+
+   #economy .articles article a {
+      background-color: darkred;
+   }
+
+   #technology {
+      background-color: rgba(0, 0, 255, 0.2);
    }
 
